@@ -60,8 +60,8 @@ if(isset($_POST['send'])){
 
    <form action="" method="post">
       <h3>Request a book!</h3>
-      <input type="text" name="name" required placeholder="enter book name" class="box">
-      <input type="text" name="email" required placeholder="enter your contact info" class="box">
+      <input type="text" name="name" required placeholder="Book Name" class="box">
+      <input type="text" name="email" required placeholder="Contact Info" class="box">
       <input type="submit" value="send message" name="send" class="btn">
    </form>
 
