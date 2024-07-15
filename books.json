@@ -1,0 +1,355 @@
+{
+  "Lower School": {
+    "1": [
+      {
+        "Title": "Interactive Notebooks: Science, Grade 1",
+        "Publisher": "Holly Rafidi",
+        "ISBN-10": "9781483831213",
+        "ISBN-13": "978-1483831213"
+      },
+      {
+        "Title": "Interactive Science, Grade 1",
+        "Publisher": "Scott Foresman",
+        "ISBN-13": "978-0328520961",
+        "ISBN-10": "0328520969"
+      },
+      {
+        "Title": "Silver",
+        "Publisher": "Gloria Whelan",
+        "ISBN-10": "0812466012",
+        "ISBN-13": "978-0812466010"
+      },
+      {
+        "Title": "Mayflower Treasure Hunt",
+        "Publisher": "Ron Roy",
+        "ISBN-10": "0375839372",
+        "ISBN-13": "978-0375839375"
+      },
+      {
+        "Title": "Flat Stanley His Original Adventure",
+        "Publisher": "Jeff Brown",
+        "ISBN-10": "9780060097912",
+        "ISBN-13": "978-0060097912"
+      },
+      {
+        "Title": "The Chocolate Touch",
+        "Publisher": "Patrick Skene Catling",
+        "ISBN-10": "0688161332",
+        "ISBN-13": "978-0688161330"
+      },
+      {
+        "Title": "Magic Tree House: (Dinosaurs Before Dark #1)",
+        "Publisher": "Mary Pope Osborne",
+        "ISBN-10": "0439238927",
+        "ISBN-13": "9780439238922"
+      }
+    ],
+    "2": [
+      {
+        "Title": "Interactive Science, Grade 2",
+        "Publisher": "Scott Foresman",
+        "ISBN-10": "0328871389",
+        "ISBN-13": "978-0328871384"
+      },
+      {
+        "Title": "Interactive Notebooks: Science, Grade 2",
+        "Publisher": "Carson Dellosa",
+        "ISBN-10": "1483831221",
+        "ISBN-13": "978-1483831220"
+      },
+      {
+        "Title": "Magic Tree House Fact Tracker: American Revolution",
+        "Publisher": "Osborne",
+        "ISBN-10": "9780375823794",
+        "ISBN-13": "978-0375823794"
+      },
+      {
+        "Title": "James and the Giant Peach",
+        "Publisher": "Dahl",
+        "ISBN-10": "0451480791",
+        "ISBN-13": "978-0451480798"
+      },
+      {
+        "Title": "Charlotte’s Web",
+        "Publisher": "E. B. White",
+        "ISBN-10": "0061124958",
+        "ISBN-13": "978-0061124952"
+      }
+    ],
+    "3": [
+      {
+        "Title": "Saxon Intermediate 4",
+        "Publisher": "Saxon",
+        "ISBN-13": "978-1600325403",
+        "ISBN-10": "1600325408"
+      },
+      {
+        "Title": "The Lightning Thief",
+        "Publisher": "Riordan",
+        "ISBN-10": "0786856297",
+        "ISBN-13": "978-0786856299"
+      },
+      {
+        "Title": "The Lion, the Witch, and the Wardrobe",
+        "Publisher": "C. S. Lewis",
+        "ISBN-10": "9780064404990",
+        "ISBN-13": "978-0064404990"
+      },
+      {
+        "Title": "Through My Eyes",
+        "Publisher": "Ruby Bridges",
+        "ISBN": "9787810296373"
+      },
+      {
+        "Title": "Totto Chan",
+        "Publisher": "Tetsuko Kuroyanagi",
+        "ISBN-13": "978-1568363912"
+      }
+    ],
+    "4": [
+      {
+        "Title": "Saxon Math, Course 1",
+        "Publisher": "Saxon",
+        "ISBN-10": "9781591417835",
+        "ISBN-13": "978-1591417835"
+      },
+      {
+        "Title": "Esperanza Rising",
+        "Publisher": "Ryan",
+        "ISBN-10": "9780439120425",
+        "ISBN-13": "978-0439120425"
+      },
+      {
+        "Title": "Holes",
+        "Publisher": "Yearling",
+        "ISBN-10": "0440414806",
+        "ISBN-13": "978-0440414803"
+      }
+    ],
+    "5": [
+      {
+        "Title": "Saxon Math 8/7",
+        "Publisher": "Saxon",
+        "ISBN-10": "0375869026",
+        "ISBN-13": "978-0375869020"
+      },
+      {
+        "Title": "Wonder",
+        "Publisher": "Palacio",
+        "ISBN-10": "0544336267",
+        "ISBN-13": "978-0544336261"
+      },
+      {
+        "Title": "A Wrinkle in Time",
+        "Publisher": "L’Engle",
+        "ISBN-10": "0312367546",
+        "ISBN-13": "978-0312367541"
+      },
+      {
+        "Title": "The Giver",
+        "Publisher": "Lowry",
+        "ISBN-10": "0544336267",
+        "ISBN-13": "978-0544336261"
+      }
+    ]
+  },
+  "Upper School": {
+    "6": [
+      {
+        "Title": "Holt Science & Technology: Human Body Systems and Health",
+        "Publisher": "Rinehart and Winston Holt",
+        "ISBN-13": "978-0030499685",
+        "ISBN-10": "0030499682"
+      },
+      {
+        "Title": "History of the World, Map by Map",
+        "Publisher": "Smithsonian & DK",
+        "ISBN-10": "1465475850",
+        "ISBN-13": "978-1465475855"
+      }
+    ],
+    "7": [
+      {
+        "Title": "Suburani Book 1",
+        "Publisher": "Hands Up Education",
+        "ISBN": "978-1-912870-02-8"
+      },
+      {
+        "Title": "Realidades I, Student Textbook",
+        "Publisher": "Prentice Hall",
+        "ISBN-10": "0133199657",
+        "ISBN-13": "978-0133199659"
+      },
+      {
+        "Title": "Realidades 1, Leveled Vocabulary and Grammar Workbook",
+        "Publisher": "Savvas Learning",
+        "ISBN-10": "0133225712",
+        "ISBN-13": "978-0133225716"
+      },
+      {
+        "Title": "Integrated Chinese: Simplified Characters Textbook, Level 1, Part 1 (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-644-6"
+      },
+      {
+        "Title": "Integrated Chinese: Level 1, Part 1 Workbook: Simplified Characters (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-640-8"
+      },
+      {
+        "Title": "Biology",
+        "Publisher": "Levine and Miller",
+        "ISBN-10": "9780133669510",
+        "ISBN-13": "978-0133669510"
+      },
+      {
+        "Title": "History of the World, Map by Map",
+        "Publisher": "Smithsonian & DK",
+        "ISBN-10": "1465475850",
+        "ISBN-13": "978-1465475855"
+      }
+    ],
+    "8": [
+      {
+        "Title": "Realidades I, Student Textbook",
+        "Publisher": "Prentice Hall",
+        "ISBN-10": "0133199657",
+        "ISBN-13": "978-0133199659"
+      },
+      {
+        "Title": "Realidades 1, Leveled Vocabulary and Grammar Workbook",
+        "Publisher": "Prentice Hall",
+        "ISBN-10": "0133225712",
+        "ISBN-13": "978-0133225716"
+      },
+      {
+        "Title": "Integrated Chinese: Simplified Characters Textbook, Level 1, Part 1 (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-644-6"
+      },
+      {
+        "Title": "Integrated Chinese: Level 1, Part 1 Workbook: Simplified Characters (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-640-8"
+      },
+      {
+        "Title": "Biology",
+        "Publisher": "Levine and Miller",
+        "ISBN-10": "9780133669510",
+        "ISBN-13": "978-0133669510"
+      }
+    ],
+    "High School": [
+      {
+        "Title": "Krugman's Economics for the AP® Course  (Fourth Edition)",
+        "Publisher": "David Anderson, BFW Publishers",
+        "ISBN-10": "1319409326",
+        "ISBN-13": "978-1319409326"
+      },
+      {
+        "Title": "5 Steps to a 5: AP Microeconomics",
+        "Publisher": "McGraw Hill;  1st Edition",
+        "ISBN-10": "1265230846",
+        "ISBN-13": "978-1265230845"
+      },
+      {
+        "Title": "5 Steps to a 5: AP Macroeconomics",
+        "Publisher": "McGraw Hill;  1st Edition",
+        "ISBN-10": "1265236380",
+        "ISBN-13": "978-1265236380"
+      },
+      {
+        "Title": "AP Microeconomics Student Workbook  (Fifth Edition)",
+        "Publisher": "Council for Economic Education",
+        "ISBN": "978-1-7348096-6-4"
+      },
+      {
+        "Title": "AP Macroeconomics Student Workbook  (Fifth Edition)",
+        "Publisher": "Council for Economic Education",
+        "ISBN": "978-1-7348096-6-4"
+      },
+      {
+        "Title": "Ways of the World",
+        "Publisher": "Strayer",
+        "ISBN-13": "978-1319022723"
+      },
+      {
+        "Title": "Integrated Chinese: Simplified Characters Textbook, Level 1, Part 2 (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-671-2"
+      },
+      {
+        "Title": "Integrated Chinese: Level 1, Part 2 Workbook: Simplified Characters (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-674-3"
+      },
+      {
+        "Title": "Integrated Chinese: Simplified Characters Textbook, Level 2, Part 1 (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-680-4"
+      },
+      {
+        "Title": "Integrated Chinese: Level 2, Part 1 Workbook: Simplified Characters (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-683-5"
+      },
+      {
+        "Title": "Integrated Chinese: Simplified Characters Textbook, Level 2, Part 2 (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-689-7"
+      },
+      {
+        "Title": "Integrated Chinese: Level 2, Part 2 Workbook: Simplified Characters (Third Edition)",
+        "Publisher": "Cheng & Tsui",
+        "ISBN": "978-0-88727-692-7"
+      },
+      {
+        "Title": "Descubre 2",
+        "Publisher": "Vista Higher Learning",
+        "ISBN-10": "1680043226",
+        "ISBN-13": "978-1680043228"
+      },
+      {
+        "Title": "Descubre 3",
+        "Publisher": "Vista Higher Learning",
+        "ISBN-10": "9781618572004",
+        "ISBN-13": "978-1618572004"
+      },
+      {
+        "Title": "Temas",
+        "Publisher": "Vista Higher Learning",
+        "ISBN": "978-1618572226"
+      },
+      {
+        "Title": "Environmental Science for the AP Course  (Third Edition)",
+        "Publisher": "Andrew Friedland",
+        "ISBN-10": "131911329X",
+        "ISBN-13": "978-1319113292"
+      },
+      {
+        "Title": "Updated Myers' Psychology for the AP® Course  (Fourth Edition)",
+        "Publisher": "David G. Myers, C. Nathan DeWall, Elizabeth Yost Hammer",
+        "ISBN-10": "1319281168",
+        "ISBN-13": "978-1319281168"
+      },
+      {
+        "Title": "Contemporary Linguistics: An Introduction (Seventh Edition)",
+        "Publisher": "Bedford/St. Martins (Macmillan)",
+        "ISBN-10": "1319039774",
+        "ISBN-13": "978-1319039776"
+      },
+      {
+        "Title": "Study Guide for Contemporary Linguistics: An Introduction (Seventh Edition)",
+        "Publisher": "Bedford/St. Martins (Macmillan)",
+        "ISBN-10": "1319040896",
+        "ISBN-13": "978-1319040895"
+      },
+      {
+        "Title": "Neuroscience: Exploring the Brain, Enhanced Edition  (Fourth Edition)",
+        "Publisher": "Mark Bear, Barry Connors, Michael A. Paradiso",
+        "ISBN-10": "1284211282",
+        "ISBN-13": "978-1284211283"
+      }
+    ]
+  }
+}
