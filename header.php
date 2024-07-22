@@ -19,9 +19,10 @@ if(isset($message)){
    
 
    <div class="header-2">
+       <!--<span style="position:absolute;left:10px;top:10px;font-size:15px;">Brought To You By:<br><span style="color:red;">Basis Web Development Club</span></span>-->
+       <span style="font-size:15px;">Made By: <span style="color:red;">Basis Web Development Club</span></span>
       <div class="flex">
          <a href="/" class="logo">Basis Book Shop</a>
-
          <nav class="navbar">
             <a href="/">Home</a>
             <a href="shop.php">Shop</a>

@@ -17,10 +17,11 @@ if (isset($_POST['add_product'])) {
     $condition = mysqli_real_escape_string($conn, $_POST['condition']);
     $price = $_POST['price'];
     $contact = mysqli_real_escape_string($conn, $_POST['contact']);
-    $image = $_FILES['image']['name'];
-    $image_size = $_FILES['image']['size'];
-    $image_tmp_name = $_FILES['image']['tmp_name'];
-    $image_folder = 'uploaded_img/' . $image;
+$image = $_FILES['image']['name'];
+$image_size = $_FILES['image']['size'];
+$image_tmp_name = $_FILES['image']['tmp_name'];
+$image_folder = 'uploaded_img/';
+$image_path = $image_folder . $image;
 
     if (empty($contact)) {
         $email_query = mysqli_query($conn, "SELECT email FROM users WHERE id = '$user_id'") or die('query failed');
@@ -41,18 +42,45 @@ if (isset($_POST['add_product'])) {
         $name = "$title";
     }
 
-    $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, image, contact, seller) VALUES('$name', '$price', '$image', '$contact', '$user_id')") or die('query failed');
+    
 
-    if ($add_product_query) {
-        if ($image_size > 2000000) {
-            $message[] = 'image size is too large';
-        } else {
-            move_uploaded_file($image_tmp_name, $image_folder);
-            $message[] = 'product added successfully!';
-        }
+
+
+// Check if the image is a HEIC format
+$image_extension = strtolower(pathinfo($image, PATHINFO_EXTENSION));
+if ($image_extension == 'heic') {
+    // Create an Imagick object
+    $imagick = new Imagick($image_tmp_name);
+    
+    // Convert to JPG
+    $image = pathinfo($image, PATHINFO_FILENAME) . '.jpg';
+    $image_path = $image_folder . $image;
+    $imagick->setImageFormat('jpg');
+    $imagick->writeImage($image_path);
+    
+    // Clean up the Imagick object
+    $imagick->clear();
+    $imagick->destroy();
+} else {
+    // Move the uploaded file to the desired folder
+    move_uploaded_file($image_tmp_name, $image_path);
+}
+
+$add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, image, contact, seller) VALUES('$name', '$price', '$image', '$contact', '$user_id')") or die('query failed');
+
+
+// Check if the product was added successfully
+if ($add_product_query) {
+    if ($image_size > 2000000000000) {
+        $message[] = 'image size is too large';
     } else {
-        $message[] = 'product could not be added!';
+        $message[] = 'product added successfully!';
     }
+} else {
+    $message[] = 'product could not be added!';
+}
+
+
 }
 
 if (isset($_GET['delete'])) {
@@ -175,7 +203,7 @@ $upperSchoolBooks = $book_list['Upper School'];
                     <label><input type="radio" name="condition" value="Good" required> Good</label>
                     <label><input type="radio" name="condition" value="Fair" required> Fair</label>
                 </div>
-                <input type="number" min="0" name="price" class="box" placeholder="Product Price" required>
+                <input type="number" min="0" name="price" step=".01" class="box" placeholder="Product Price" required>
                 <input type="text" name="contact" class="box" placeholder="Contact Info (email/number) (Default if left blank)">
                 <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box" required>
                 <input type="submit" value="Add Product" name="add_product" class="btn">
